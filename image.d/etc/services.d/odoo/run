@@ -1,0 +1,4 @@
+#!/bin/execlineb -P
+
+s6-setuidgid odoo
+/srv/odoo/odoo-bin -c /srv/odoo/conf/odoo.conf
